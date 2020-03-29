@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>Nepal Aid</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>SQLite</type>
+                <path>/Applications/GeoDa.app/Contents/MacOS/../Resources/samples.sqlite</path>
+            </datasource>
+            <layername>Nepal Aid</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>id</var>
+                <var>id_1</var>
+                <var>name_1</var>
+                <var>id_2</var>
+                <var>name_2</var>
+                <var>id_3</var>
+                <var>district</var>
+                <var>
+                    depecprov
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    povindex
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>pcinc</var>
+                <var>pcincppp</var>
+                <var>pcincmp</var>
+                <var>
+                    malkids
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    lif40
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    nosafh20
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>population</var>
+                <var>boyg1_5</var>
+                <var>girlg1_5</var>
+                <var>kids1_5</var>
+                <var>schoolcnt</var>
+                <var>
+                    schlpkid
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    schlppop
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    ad_illit
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>ad_ilgt50</var>
+                <var>
+                    lon
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    lat
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries/>
+            <default_vars>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
